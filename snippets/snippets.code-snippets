@@ -1,21 +1,39 @@
 {
-    "vue-ts-template": {
-        "prefix": "gvue",
-        "body": [
-            "<template>",
-            "   开发中",
-            "</template>",
-            "<script lang='ts'>",
-            "import { defineComponent } from 'vue';",
-            "export default defineComponent({",
-            "   setup() {",
-            "",
-            "       return {",
-            "",
-            "       };",
-            "   }",
-            "});",
-        ],
-        "description": "Code snippet for 'vue-ts-template'"
-    }
+  "vue-ts-template": {
+    "prefix": "gvue",
+    "body": [
+      "<template>",
+      "   开发中",
+      "</template>",
+      "<script lang='ts'>",
+      "import { defineComponent } from 'vue';",
+      "export default defineComponent({",
+      "   setup() {",
+      "",
+      "       return {",
+      "",
+      "       };",
+      "   }",
+      "});",
+      "</script>"
+    ],
+    "description": "Code snippet for 'vue-ts-template'"
+  },
+  "uni-vue-composition-ts": {
+    "prefix": "guni",
+    "body": [
+      "<template>",
+      "   <view>开发中</view>",
+      "</template>",
+      "<script lang='ts'>",
+      "import { defineComponent } from '@vue/composition-api';",
+      "export default defineComponent({",
+      "   setup() {",
+      "       return {};",
+      "   }",
+      "});",
+      "</script>"
+    ],
+    "description": "Code snippet for 'uni-vue-composition-ts'"
+  }
 }
