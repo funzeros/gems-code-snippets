@@ -28,7 +28,6 @@
     "description": "template"
   },
   "Comments for code": {
-    "scope": "javascript,typescript",
     "prefix": "cmGems",
     "body": [
       "/**",
