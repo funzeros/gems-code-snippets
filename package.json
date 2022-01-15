@@ -2,7 +2,7 @@
   "name": "gems-vue-snippets",
   "displayName": "Gems Vue Snippets",
   "description": "a custom snippets extension for vue by gems",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "GemsFang",
   "icon": "public/logo.png",
   "engines": {
