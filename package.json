@@ -2,7 +2,7 @@
   "name": "gems-vue-snippets",
   "displayName": "Gems Vue Snippets",
   "description": "a custom snippets extension for vue by gems",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "GemsFang",
   "icon": "public/logo.png",
   "engines": {
@@ -14,8 +14,24 @@
   "contributes": {
     "snippets": [
       {
-        "language": "vue,typescript,javascript,html,css",
-        "path": "./snippets/snippets.code-snippets"
+        "language": "vue",
+        "path": "./snippets/snippets-vue.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets-common.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-common.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-common.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets-common.code-snippets"
       }
     ]
   },

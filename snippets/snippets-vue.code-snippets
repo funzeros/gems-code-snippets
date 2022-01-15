@@ -22,21 +22,10 @@
     "description": "scss template"
   },
   "template": {
-    "scope": "vue,html",
+    "scope": "vue",
     "prefix": "temp",
     "body": ["<template>", "$0", "</template>"],
     "description": "template"
-  },
-  "Comments for code": {
-    "prefix": "cmGems",
-    "body": [
-      "/**",
-      " * @author Gems",
-      " * @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-      " * @description $1",
-      " */"
-    ],
-    "description": "Gems注释"
   },
   "vue-ts-template": {
     "scope": "vue",
