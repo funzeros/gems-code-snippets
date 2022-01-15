@@ -2,11 +2,11 @@
   "name": "gems-vue-snippets",
   "displayName": "Gems Vue Snippets",
   "description": "a custom snippets extension for vue by gems",
-  "version": "0.0.1",
-  "publisher": "gems-fangkechen",
+  "version": "0.0.2",
+  "publisher": "GemsFang",
   "icon": "public/logo.png",
   "engines": {
-    "vscode": "^1.58.0"
+    "vscode": "^1.62.3"
   },
   "categories": [
     "Snippets"
@@ -18,6 +18,9 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package"
   },
   "keywords": [
     "vue",
@@ -37,5 +40,8 @@
   "repository": {
     "type": "git",
     "url": "git@gitee.com:funzeros/gems-code-snippets.git"
+  },
+  "devDependencies": {
+    "vsce": "2.6.3"
   }
 }

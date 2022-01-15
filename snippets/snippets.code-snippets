@@ -1,5 +1,46 @@
 {
+  "vue setup template": {
+    "scope": "vue",
+    "prefix": "setup",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "$0",
+      "</script>",
+      "<template>",
+      "  <div>开发中</div>",
+      "</template>",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "vue setup template"
+  },
+  "scss template": {
+    "scope": "vue",
+    "prefix": "scss",
+    "body": ["<style lang=\"scss\" scoped>", "$0", "</style>"],
+    "description": "scss template"
+  },
+  "template": {
+    "scope": "vue,html",
+    "prefix": "temp",
+    "body": ["<template>", "$0", "</template>"],
+    "description": "template"
+  },
+  "Comments for code": {
+    "scope": "javascript,typescript",
+    "prefix": "cmGems",
+    "body": [
+      "/**",
+      " * @author Gems",
+      " * @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * @description $1",
+      " */"
+    ],
+    "description": "Gems注释"
+  },
   "vue-ts-template": {
+    "scope": "vue",
     "prefix": "gvue",
     "body": [
       "<template>",
@@ -20,6 +61,7 @@
     "description": "Code snippet for 'vue-ts-template'"
   },
   "uni-vue-composition-ts": {
+    "scope": "vue",
     "prefix": "guni",
     "body": [
       "<template>",
